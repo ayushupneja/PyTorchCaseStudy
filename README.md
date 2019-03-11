@@ -1,5 +1,3 @@
-# case-study-ayushupneja
-
 # Ayush's Case Study of PyTorch
 
 Problem Statement: Analyze the package in your own words, 5-10 pages total, a concise analysis without vague generalities, including the following. Percentages are approximate percent of written report case study grade.
