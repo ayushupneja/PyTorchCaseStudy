@@ -6,8 +6,15 @@ Problem Statement: Analyze the package in your own words, 5-10 pages total, a co
 
 A: What coding languages are used? Do you think the same languages would be used if the project was started today? What languages would you use for the project if starting it today?
 
+- You utilize pytorch as a library in python but it is written in Python, C++. and Cuda
+- I believe yes, the same languages would be used if the project was started today. It's not as if it's using Fortran or some ancient language, all three of the written languages are fairly common today, in fact the BU curriculum teaches only C++ in computer engineering. Additionally, its front side is only Python based. Any user would not be programming in any other language and Python is fairly future proof as of right now.
+- I have absolutely no experience in using machine learning let alone developing a machine learning library, but from what I've read and based on the fact that PyTorch was first released only in October 2016, I would keep things relatively the same.
+
 
 B: What build system is used (e.g. Bazel, CMake, Meson)? What build tools / environment are needed to build (e.g. does it require Visual Studio or just GCC or ?)
+
+- All of the libraries in the backend contain CMakeLists.txt which means CMake is the build system that is used in the build system of PyTorch.
+-
 
 C: What frameworks / libraries are used in the project? At least one of these projects don’t use any external libraries or explicit threading, yet is noted for being the fastest in its category--in that case, what intrinsic language techniques is it using to get this speed.
 
